@@ -24,7 +24,8 @@ HEADERS += src/OptProject.hpp \
     src/Utilities/Timer.hpp \
     src/Utilities/mtrand/mtrand.h \
     src/Utilities/getoptpp/getopt_pp.h \
-    src/libs.hpp
+    src/libs.hpp \
+    src/Solvers/IOperator.hpp
 unix:!symbian {
     maemo5 {
         target.path = /opt/usr/lib
