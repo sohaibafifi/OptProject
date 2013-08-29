@@ -1,0 +1,16 @@
+build/*
+!build/Makefile
+!build/*.make
+nohup.out
+output*/*
+*/output*/
+output.*/
+.*project
+docs/
+callgrind*
+out
+*.orig
+*.rej
+coverage.info
+*.o
+*~
