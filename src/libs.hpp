@@ -1,22 +1,15 @@
 #pragma once
-#include <string>
-#include <iostream>
 #include <fstream>
-#include <vector>
 #include "assert.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <list>
-#include <map>
 #include <cmath>
 #include <limits>
 #include <math.h>
-#include <algorithm>
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <cstdlib>
 #include <ctime>
-#include <cmath>
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -25,7 +18,6 @@
 #include <set>
 #include <algorithm>
 #include <stdexcept>
-#include <stack>
 #include <iostream>
 #include <iomanip>
 #if defined(WIN32) || defined(_WIN32)
