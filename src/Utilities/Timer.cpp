@@ -8,7 +8,7 @@
 //         http://creativecommons.org/licenses/by/3.0/deed.en_US
 
 #include "Timer.hpp"
-namespace Utility {
+namespace Utilities {
 
     /**
  * Returns the amount of CPU time used by the current process,

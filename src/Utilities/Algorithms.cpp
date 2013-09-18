@@ -4,7 +4,7 @@
 
 
 #include "Algorithms.hpp"
-namespace Utility {
+namespace Utilities {
     string Algorithms::itos(int i)
     {
         return static_cast<ostringstream*>( &(ostringstream() << i) )->str();;

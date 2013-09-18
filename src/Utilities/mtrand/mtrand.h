@@ -44,7 +44,7 @@
 
 #ifndef MTRAND_H
 #define MTRAND_H
-namespace  Utility {
+namespace  Utilities {
     class MTRand_int32 { // Mersenne Twister random number generator
         public:
             /// default constructor: uses default seed only if this is the first instance

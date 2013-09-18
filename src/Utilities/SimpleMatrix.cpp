@@ -7,7 +7,7 @@
 #include "SimpleMatrix.hpp"
 #include <iostream>
 
-using namespace Utility;
+using namespace Utilities;
 bool	isStochastic( DoubleMatrix & M, double epsilon)
 {
     double sum;
@@ -65,7 +65,7 @@ void normalize( DoubleMatrix & M )
     }
 }
 
-namespace Utility{
+namespace Utilities{
 
 template<class _T>
     SimpleMatrix<_T>::SimpleMatrix(unsigned size) :

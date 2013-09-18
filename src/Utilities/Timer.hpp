@@ -4,7 +4,7 @@
 
 
 #pragma once
-namespace Utility {
+namespace Utilities {
 
 
 #if defined(_WIN32)

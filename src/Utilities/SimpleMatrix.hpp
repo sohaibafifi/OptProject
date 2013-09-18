@@ -32,7 +32,7 @@
  *
  * \todo Read matrix data from 'mtl' file: Matlab format file for sparse matrix. Only contains cells!=0, with their coordinates.
  */
-namespace Utility{
+namespace Utilities{
 template<class _T>
     class SimpleMatrix
     {

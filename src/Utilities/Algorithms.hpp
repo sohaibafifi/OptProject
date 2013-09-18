@@ -6,7 +6,7 @@
 #pragma once
 #include "../libs.hpp"
 #include "mtrand/mtrand.h"
-namespace Utility{
+namespace Utilities{
 class Algorithms
 {
 public:
@@ -83,7 +83,7 @@ public:
     };
 } // end  namespace
 // define a shortcut
-typedef Utility::Algorithms __;
+typedef Utilities::Algorithms __;
 // some useful macros
 #define lambda(return_type, ...) \
   __extension__ \
