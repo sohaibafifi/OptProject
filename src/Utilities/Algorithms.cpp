@@ -1,3 +1,8 @@
+// Part of OptProject: A basis project for RO problems
+// By Sohaib Afifi <me [at] sohaibafifi.com>
+// Copyright (c) 2012-2013 University of Technology of Compiegne, France
+
+
 #include "Algorithms.hpp"
 namespace Utility {
     string Algorithms::itos(int i)
