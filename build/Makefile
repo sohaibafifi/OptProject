@@ -109,6 +109,7 @@ endif
 
 OBJECTS := \
 	$(OBJDIR)/Algorithms.o \
+	$(OBJDIR)/SimpleMatrix.o \
 	$(OBJDIR)/Timer.o \
 	$(OBJDIR)/mtrand.o \
 	$(OBJDIR)/getopt_pp.o \
@@ -173,6 +174,9 @@ $(GCH): $(PCH)
 endif
 
 $(OBJDIR)/Algorithms.o: ../src/Utilities/Algorithms.cpp
+	@echo $(notdir $<)
+	$(SILENT) $(CXX) $(CXXFLAGS) -o "$@" -c "$<"
+$(OBJDIR)/SimpleMatrix.o: ../src/Utilities/SimpleMatrix.cpp
 	@echo $(notdir $<)
 	$(SILENT) $(CXX) $(CXXFLAGS) -o "$@" -c "$<"
 $(OBJDIR)/Timer.o: ../src/Utilities/Timer.cpp

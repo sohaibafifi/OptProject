@@ -14,7 +14,8 @@ SOURCES += \
     src/Utilities/Timer.cpp \
     src/Utilities/Algorithms.cpp \
     src/Utilities/mtrand/mtrand.cpp \
-    src/Utilities/getoptpp/getopt_pp.cpp
+    src/Utilities/getoptpp/getopt_pp.cpp \
+    src/Utilities/SimpleMatrix.cpp
 
 HEADERS += src/OptProject.hpp \
     src/Models/IProblem.hpp \
@@ -25,7 +26,8 @@ HEADERS += src/OptProject.hpp \
     src/Utilities/mtrand/mtrand.h \
     src/Utilities/getoptpp/getopt_pp.h \
     src/libs.hpp \
-    src/Solvers/IOperator.hpp
+    src/Solvers/IOperator.hpp \
+    src/Utilities/SimpleMatrix.hpp
 unix:!symbian {
     maemo5 {
         target.path = /opt/usr/lib
