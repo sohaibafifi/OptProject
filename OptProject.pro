@@ -27,7 +27,8 @@ HEADERS += src/OptProject.hpp \
     src/Utilities/getoptpp/getopt_pp.h \
     src/libs.hpp \
     src/Solvers/IOperator.hpp \
-    src/Utilities/SimpleMatrix.hpp
+    src/Utilities/SimpleMatrix.hpp \
+    src/Utilities/Foreach.hpp
 unix:!symbian {
     maemo5 {
         target.path = /opt/usr/lib
